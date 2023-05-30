@@ -1,0 +1,7 @@
+# Flask
+__pycache__/
+instance/
+env/
+
+# React
+node_modules/

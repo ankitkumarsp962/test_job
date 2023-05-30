@@ -1,0 +1,58 @@
+.table-header-fixed thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+}
+
+.page-link.active {
+  background-color: #39c3c9;
+  color: "white";
+  border: 1px solid #39c3c9;
+}
+
+.page-link {
+  background-color: #fff;
+  border-color: #39c3c9;
+  color: #39c3c9;
+}
+
+.page-item.page-link:hover {
+  background-color: #fff;
+  border-color: #39c3c9;
+  color: #39c3c9;
+}
+
+.dltBtn {
+  margin-bottom: 10px;
+  background: #39c3c9;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.deleteBtnStyle{
+  display: flex;
+  justify-content: end 
+}
+thead tr{
+  background: #39c3c9;
+   color: white
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #39c3c9;
+  border-color: #39c3c9;
+  color: #fff;
+  /* Added to change the text color on active button */
+}
+
+.custom-pagination .page-link {
+  color: #39c3c9;
+  border: 1px solid #39c3c9;
+  border-radius: 0.25rem;
+}
+
+.custom-pagination.page-link:hover {
+  background-color: #39c3c9;
+  color: #fff;
+}
